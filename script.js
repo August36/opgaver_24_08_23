@@ -28,3 +28,9 @@ const newImage2 = "https://picsum.photos/id/66/200/300";
 const imageElement2 = document.getElementById("img2");
 
 imageElement2.src = newImage2;
+
+// opg 4 - som jeg allerede lavede tidligere med spanElement, med hjælp fra Carl - prøver selv her
+
+const newArticleElement = document.createElement("article");
+
+const newImageElement = document.createElement("img");
