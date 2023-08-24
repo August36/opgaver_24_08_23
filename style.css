@@ -1,0 +1,32 @@
+img {
+  width: 525px;
+  height: 400px;
+}
+h1 {
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
+h2 {
+  margin-left: 100px;
+}
+.section_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+article {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-right: 10px;
+}
+footer {
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 10px;
+}
