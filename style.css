@@ -14,6 +14,7 @@ h2 {
 .section_grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  /* "Create a grid with columns that should automatically fill the available space, and each column should be at least 400px wide but can expand to take up available space equally." */
   margin-left: 100px;
   margin-right: 100px;
 }
