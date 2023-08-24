@@ -12,3 +12,11 @@ paragraph.createElement = "span";
 spanElement.textContent = "nyt nyt hejehje";
 
 title.appendChild(spanElement);
+
+// new image opgave
+
+const newImage = "https://picsum.photos/id/33/200/300";
+
+const imageElement = document.getElementById("img1");
+
+imageElement.src = newImage;
